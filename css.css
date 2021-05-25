@@ -1,0 +1,783 @@
+/*obnul*/
+
+*
+{
+padding: 0;
+margin: 0;
+border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline:thistle;}
+a:focus,a:active{outline: white;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+ul li{
+margin:0;
+padding:0;
+display:block;}
+
+body{
+  color: #000000;
+ 
+
+  
+  
+  
+}
+.page{
+    position: relative;
+  width: 100%;
+  height: 100vh;
+  
+  overflow-x: hidden;
+overflow-y: hidden;
+}
+.container{
+
+    display: flex;
+
+    width: 1230px;
+
+    margin: 0 auto;
+
+
+}
+
+
+.years1941{
+
+font-family: 'Coda Caption';
+Font-style: ExtraBold;
+Font-size: 135px;
+Line-height: 205px;
+Letter-spacing: 10%;
+
+font-weight: 
+800;
+
+position: absolute;
+    animation-name: flicker;  
+    
+top:70px;
+left:152px;
+
+
+background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+background-size:contain ;
+color: transparent;
+-moz-background-clip: text;
+-webkit-background-clip: text;
+text-transform: uppercase;
+
+
+
+
+
+
+
+}
+
+
+.years1942{
+
+    font-family: 'Coda Caption';
+    Font-style: ExtraBold;
+    Font-size: 135px;
+    Line-height: 205px;
+    Letter-spacing: 10%;
+font-weight: 
+800;
+width: 400px;
+
+position: absolute;
+    animation-name: flicker;  
+    
+    top:70px;
+    left:1400px;
+    
+background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+background-size:contain ;
+color: transparent;
+-moz-background-clip: text;
+-webkit-background-clip: text;
+text-transform: uppercase;
+
+
+    }
+
+    
+    
+    .years1945{
+    
+        font-family: 'Coda Caption';
+        Font-style: ExtraBold;
+        Font-size: 135px;
+        Line-height: 205px;
+        Letter-spacing: 10%;
+    font-weight: 
+    800;
+    position: absolute;
+    animation-name: flicker;  
+    
+    left:735px;
+    top:357px;
+    width: 350px;
+
+background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+background-size:contain ;
+color: transparent;
+-moz-background-clip: text;
+-webkit-background-clip: text;
+text-transform: uppercase;
+    
+        }
+
+
+
+            
+     
+        .years1943{
+        
+            font-family: 'Coda Caption';
+            Font-style: ExtraBold;
+            Font-size: 135px;
+            Line-height: 205px;
+            Letter-spacing: 10%;
+        font-weight: 
+        800;
+        position: absolute;
+    animation-name: flicker;  
+    
+    left:152px;
+    top:700px;
+     
+    background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+background-size:contain ;
+color: transparent;
+-moz-background-clip: text;
+-webkit-background-clip: text;
+text-transform: uppercase;
+        
+            }
+            
+   
+        
+       
+        .years1944{
+        
+            font-family: 'Coda Caption';
+            Font-style: ExtraBold;
+            Font-size: 135px;
+            Line-height: 205px;
+            Letter-spacing: 10%;
+        font-weight:800;
+        position: absolute;
+        animation-name: flicker;  
+        left:1400px;
+        top:700px;
+    
+    background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+background-size:contain ;
+color: transparent;
+-moz-background-clip: text;
+-webkit-background-clip: text;
+text-transform: uppercase;
+
+
+            }
+
+
+
+
+
+            @media only screen and (max-width:1920px){
+
+
+
+                .video_fon{
+                    background-color: black;
+                }
+                video{
+                    object-position: center;
+                    position: relative;
+                    width: 100vw;
+                    height: auto;
+                    opacity: 50%;
+                }
+
+
+                .container{
+  
+                    display: flex;
+                
+                    width: 76.88vw;
+                    margin: 0 auto;
+                
+                
+                }
+                
+                
+                
+                .years1941{
+                
+               
+                    
+                top:4.38vw;
+                left:7.50vw;
+                
+               
+                
+                }
+                
+                
+                .years1942{
+                
+                  
+                    
+                    top:4.38vw;
+                    left:70.50vw;
+               
+                
+                    }
+                
+                    
+                    
+                    .years1945{
+                    
+                       
+                    left:40.94vw;
+                    top:20.56vw;
+                    width: 21.88vw;
+           
+                        }
+                
+                
+                
+                            
+                     
+                        .years1943{
+                        
+                           
+                    left:7.50vw;
+                    top:36.75vw;
+                     
+                 
+                            }
+                            
+                   
+                        
+                       
+                        .years1944{
+                        
+                        
+                        left:70.50vw;
+                        top:36.75vw;
+         
+                
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+            @media only screen and (max-width:1600px){
+
+
+
+
+            
+body{
+    color: #000000;
+ 
+  
+  
+  }
+  .page{
+      position: relative;
+    width: 100vw;
+    height: 100vh;  overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+
+  .video_fon{
+      background-color: black;
+  }
+  video{
+      object-position: center;
+      position: relative;
+      width: 100vw;
+      height: auto;
+      opacity: 50%;
+  }
+  .container{
+  
+      display: flex;
+  
+      width: 76.88vw;
+      margin: 0 auto;
+  
+  
+  }
+  
+  
+  
+  .years1941{
+  
+  font-family: 'Coda Caption';
+  Font-style: ExtraBold;
+  Font-size: 8.44vw;
+  Line-height: 12.81vw;
+  Letter-spacing: 0vw;
+  
+  font-weight: 
+  800;
+  
+  position: absolute;
+      animation-name: flicker;  
+      
+  top:4.38vw;
+  left:7.50vw;
+  
+  
+  background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+  background-size:contain ;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+
+  
+  }
+  
+  
+  .years1942{
+  
+      font-family: 'Coda Caption';
+      Font-style: ExtraBold;
+      Font-size: 8.44vw;
+      Line-height: 12.81vw;
+      Letter-spacing: 0vw;
+  font-weight: 
+  800;
+  width: 25vw;
+  
+  position: absolute;
+      animation-name: flicker;  
+      
+      top:4.38vw;
+      left:70.50vw;
+      
+  background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+  background-size:contain ;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  
+  
+      }
+  
+      
+      
+      .years1945{
+      
+          font-family: 'Coda Caption';
+          Font-style: ExtraBold;
+          Font-size: 8.44vw;
+          Line-height: 12.81vw;
+          Letter-spacing: 0vw;
+      font-weight: 
+      800;
+      position: absolute;
+      animation-name: flicker;  
+      
+      left:40.94vw;
+      top:20.56vw;
+      width: 21.88vw;
+  
+  background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+  background-size:contain ;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+      
+          }
+  
+  
+  
+              
+       
+          .years1943{
+          
+              font-family: 'Coda Caption';
+              Font-style: ExtraBold;
+              Font-size: 8.44vw;
+              Line-height: 12.81vw;
+              Letter-spacing: 0vw;
+          font-weight: 
+          800;
+          position: absolute;
+      animation-name: flicker;  
+      left:7.50vw;
+      top:36.75vw;
+       
+      background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+  background-size:contain ;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+          
+              }
+              
+     
+          
+         
+          .years1944{
+          
+              font-family: 'Coda Caption';
+              Font-style: ExtraBold;
+              Font-size:8.44vw;
+              Line-height: 12.81vw;
+              Letter-spacing: 0vw;
+          font-weight:800;
+          position: absolute;
+          animation-name: flicker;  
+          left:70.50vw;
+          top:36.75vw;
+      
+      background-image: url('img/AbandonedAnguishedCatfish-size_restricted.gif');
+  background-size:contain ;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  
+  
+              }
+  
+
+            }
+            @media only screen and (max-width:1020px){
+
+
+
+body{
+
+background-image: url('img/9iXd_hO2cag\ \(1\).jpg');
+
+
+}
+video{
+  display: none;
+}
+
+.years1941{
+    display: flex;
+margin-top: 10vw;
+Font-size:10.5vw;
+
+}
+
+.years1942{
+    display: flex;
+
+margin-top: 10vw;
+width: 40vw;
+Font-size:10.5vw;
+
+margin-left: -3vw;
+
+}
+.years1945{
+    display: flex;
+margin-top: 15vw;
+width: 40vw;
+
+margin-left: -2vw;
+Font-size:10.5vw;
+}
+
+.years1943{
+    display: flex;
+margin-top: 22vw;
+
+Font-size:10.5vw;
+
+}
+
+.years1944{
+    display: flex;
+margin-top: 22vw;
+
+margin-left: -3vw;
+Font-size:10.5vw;
+}
+
+
+
+
+
+
+
+
+            }
+            
+        
+        @media only screen and (max-width:800px){
+
+
+
+body{
+
+background-image: url('img/9iXd_hO2cag\ \(1\).jpg');
+
+
+}
+video{
+display: none;
+}
+
+.years1941{
+
+margin-top: 16vw;
+Font-size:10.5vw;
+
+}
+
+.years1942{
+
+margin-top: 16vw;
+Font-size:10.5vw;
+
+}
+.years1945{
+
+margin-top: 26vw;
+Font-size:10.5vw;
+width: 40vw;
+
+}
+
+.years1943{
+
+margin-top: 36vw;
+Font-size:10.5vw;
+
+}
+
+.years1944{
+
+margin-top: 36vw;
+Font-size:10.5vw;
+
+}
+
+
+
+
+
+
+
+
+        }
+        @media only screen and (max-width:660px){
+
+
+
+            body{
+            
+            background-image: url('img/9iXd_hO2cag\ \(1\).jpg');
+            
+            
+            }
+            video{
+            display: none;
+            }
+            
+            .years1941{
+            
+            margin-top: 24vw;
+    
+            Font-size:12vw;
+            }
+            
+            .years1942{
+            
+            margin-top: 24vw;
+       
+            Font-size:12vw;
+            
+            }
+            .years1945{
+            
+            margin-top: 29vw;
+            Font-size:12vw;
+            margin-left: -3vw;
+            }
+            
+            .years1943{
+            
+            margin-top: 37vw;
+            Font-size:12vw;
+            
+            }
+            
+            .years1944{
+            
+            margin-top: 37vw;
+            Font-size:12vw;
+            margin-left: -6vw;
+            
+            }}
+
+
+
+
+            
+        @media only screen and (max-width:480px){
+
+
+
+            body{
+            
+            background-image: url('img/9iXd_hO2cag\ \(1\).jpg');
+            
+            
+            }
+            video{
+            display: none;
+            }
+            
+            .years1941{
+            
+            margin-top: 48vw;
+            Font-size:14vw;
+            
+            }
+            
+            .years1942{
+            
+            margin-top: 48vw;
+            Font-size:14vw;
+            margin-left: -10vw;
+            width: 40vw;
+            
+            }
+            .years1945{
+                margin-left: -5vw;
+            margin-top: 57vw;
+            Font-size:14vw;
+            width: 40vw;
+         
+            
+            }
+            
+            .years1943{
+            
+            margin-top: 67vw;
+            Font-size:14vw;
+            }
+            
+            .years1944{
+            
+            margin-top: 67vw;
+            Font-size:14vw;
+            margin-left: -10vw;
+            }}
+
+
+            @media only screen and (max-width:320px){
+
+
+
+                body{
+                
+                background-image: url('img/9iXd_hO2cag\ \(1\).jpg');
+                
+                
+                }
+                video{
+                display: none;
+                }
+
+
+                
+                .years1941{
+                
+            margin-top: 65vw;
+            margin-left: -2vw;
+                 
+                Font-size:13vw
+                
+                }
+                
+                .years1942{
+                               
+            margin-top: 65vw;
+                    margin-left: -7vw;
+         
+                 
+                Font-size:13vw;
+            
+                width: 35vw;
+                
+                }
+                .years1945{
+                
+                  
+                Font-size:13vw;
+                width: 35vw;
+                margin-left: -4vw;
+                           
+            margin-top: 75vw;
+                }
+                
+                .years1943{
+                
+                     
+                    margin-top: 84vw;
+                
+           
+                    Font-size:13vw
+                }
+                
+                .years1944{
+                           
+            margin-top: 84vw;
+            margin-left: -8vw;
+                Font-size:13vw;
+                }

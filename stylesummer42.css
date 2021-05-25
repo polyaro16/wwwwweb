@@ -1,0 +1,529 @@
+/*obnul*/
+
+*
+{
+padding: 0;
+margin: 0;
+border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline:thistle;}
+a:focus,a:active{outline: white;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+ul li{
+margin:0;
+padding:0;
+display:block;}
+
+.page{
+  background-image: url(img/background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.listopad{
+  height: 120vh;
+  position: fixed;
+}
+
+
+
+/*меню*/
+
+.menu_for_diary{
+  position: fixed;
+  visibility: hidden;
+  text-align: center;
+  list-style: none;
+  border: 4.05px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 0;
+  top: 60px;
+  right: -100%;
+  width: 180px;
+  z-index: 1;
+}
+
+body{
+  background-color: #c4c0c0;
+}
+
+#menu_toggle_diary{
+  opacity: 0;
+  }
+
+.menu_btn_diary {
+  position: fixed;
+  padding: 0;
+  top: 15px;
+  right: 60px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  z-index: 2 ;
+  }
+
+.logo1{
+   top: 2%;
+}
+
+li{
+  position: relative;
+}
+
+.submenu_for_diary{
+  position: absolute;
+  list-style: none;
+  text-align: center;
+  border: 4.05px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  z-index: 1;
+}
+
+a.menu_diary{
+  display: block;
+  padding: 1em;
+  font-family: 'Cormorant SC';
+  font-size: 14px;
+  font-weight: 550;
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 0.2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+
+}
+
+li:hover > a.menu_diary,
+a.menu_diary:hover{
+ 
+  background-color: rgb(70, 70, 70);
+}
+
+li:hover > .submenu_for_diary{
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  width: 50%;
+}
+
+.menu_for_diary .submenu_for_diary{
+  top: 0;
+  right: 102%;
+}
+
+#menu_toggle_diary:checked ~ .menu_for_diary {
+  visibility: visible;
+  right: 60px;
+}
+
+
+/*фон лето1942*/
+.datafon{
+position: absolute;
+left: 27%;
+width: 30%;
+height: 15%;
+}
+
+
+/*текст лето 1942*/
+.Datatext{
+  left: 35%;
+ position: absolute;
+font-family: Bad Script;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 79px;
+
+}
+
+
+/*фон текст 1*/
+.textfon1{
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  height: 42%;
+  width: 67%;
+}
+
+/*текст 1*/
+.texxt1{
+position: absolute;
+font-family: Bad Script;
+font-size: 23px;
+line-height: 45px;
+top: 19%;
+left: 5%;
+Width:64%;
+
+}
+
+/*фон текст 2*/
+.textfon2
+  {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    height: 47%;
+    width: 67%;
+  }
+
+
+
+/*текст 2*/
+.texxt2{
+position: absolute;
+font-family: Bad Script;
+font-size: 23px;
+line-height: 45px;
+top: 58%;
+left: 17%;
+Width:64%;
+Height: 20%;
+}
+
+
+ 
+ /*стрелка вперёд*/
+ .arrowforward {
+  position: absolute;
+  bottom: 0%;
+ right: 10%;
+}
+
+/*блок вперёд*/
+.forward{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+/* блок назад*/
+.back{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*фон назад*/
+.backfon{
+  position: relative;
+
+}
+
+/*стрелка назад*/
+.arrowback{
+  position: absolute;
+  left: 0%;
+}
+
+/*фон вперёд*/
+.forwardfon{
+  position: relative;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/*adapt*/
+
+
+
+@media only screen and (max-width : 1440px)
+ {  
+  .textfon1{
+    height: 43%;
+    width: 70%;
+  }
+    .texxt1{
+      top: 17%;
+      width: 66%;
+    }
+    /*текст лето 1942*/
+    .Datatext{
+      left: 33%;
+      font-size: 34px;
+    
+    }
+    
+      /*текст 2*/
+    .texxt2{
+    top: 57%;
+   }
+    
+}
+
+
+
+
+@media only screen and (max-width : 1024px) 
+{
+  .datafon{
+    height: 12%;
+  }
+
+  .Datatext{
+    left: 31.5%;
+    font-size: 29px;
+  
+  }
+  .textfon1{
+    height: 40%;
+    width: 75%;
+  }
+   .texxt1{
+font-size: 20px;
+Width:70%;
+}
+
+.texxt2{
+font-size: 20px;
+top: 57%;
+width: 70%;
+}
+.textfon2
+  {
+    height: 46%;
+    width: 73%;
+  }
+
+}
+
+
+
+@media only screen and (max-width : 800px)
+ {
+  
+  
+  .datafon{
+    width: 35%;
+
+  }
+
+  .Datatext{
+    left: 31%;
+    font-size: 26px;
+  
+  }
+  .textfon1{
+    height: 40%;
+    width: 80%;
+  }
+   .texxt1{
+     top: 17%;
+font-size: 17px;
+line-height: normal;
+Width:72%;
+}
+
+.texxt2{
+font-size: 17px;
+top: 57%;
+width: 70%;
+line-height: normal;
+}
+.textfon2
+  {
+    height: 46%;
+    width: 73%;
+  }    
+}
+
+
+
+@media only screen and (max-width : 660px){
+  
+  .datafon{
+    width: 35%;
+  }
+
+  .Datatext{
+    left: 31%;
+    font-size: 22px;
+  
+  }
+  .textfon1{
+    height: 40%;
+    width: 80%;
+  }
+   .texxt1{
+     top: 17%;
+font-size: 16px;
+line-height: normal;
+Width:75%;
+}
+
+.texxt2{
+font-size: 16px;
+top: 54%;
+width: 70%;
+line-height: normal;
+}
+.textfon2
+  {
+    top: 52%;
+    height: 43%;
+    width: 75%;
+  } 
+
+}
+
+
+
+@media only screen and (max-width : 480px)
+ {
+ 
+  .datafon{
+    width: 38%;
+  }
+
+  .Datatext{
+    left: 32%;
+    font-size: 18px;
+  
+  }
+  .textfon1{
+    height: 38%;
+    width: 80%;
+  }
+   .texxt1{
+     top: 17%;
+font-size: 13px;
+line-height: normal;
+Width:75%;
+}
+
+.texxt2{
+font-size: 13px;
+top: 54%;
+width: 70%;
+line-height: normal;
+}
+.textfon2
+  {
+    top: 52%;
+    height: 40%;
+    width: 76%;
+  } 
+.menu_btn_diary{
+  position: absolute;
+left: 85%;
+  top: 1%;
+ 
+}
+.menu_for_diary{
+  top: 5%;
+  
+}
+
+#menu_toggle_diary:checked ~ .menu_for_diary {
+  visibility: visible;
+  right: 8%;
+}
+.logo1{
+  width: 78%;
+  height: 77%;
+}
+  
+.arrowback{
+  bottom: -0.5%;
+}  
+  
+
+.arrowforward{
+bottom: 3%;
+right: 0;
+}
+
+}
+
+
+
+
+@media only screen and (max-width : 320px)
+ {
+     
+  .datafon{
+    left: 13%;
+    height: 10%;
+    width: 50%;
+  }
+
+  .Datatext{
+    left: 21%;
+    font-size: 18px;
+  
+  }
+  .textfon1{
+    height: 36%;
+    width: 80%;
+  }
+   .texxt1{
+     top: 17%;
+font-size: 11px;
+line-height: normal;
+Width:75%;
+}
+
+.texxt2{
+font-size: 11px;
+top: 54%;
+width: 70%;
+line-height: normal;
+}
+.textfon2
+  {
+    top: 52%;
+    height: 40%;
+    width: 75%;
+  } 
+
+
+}

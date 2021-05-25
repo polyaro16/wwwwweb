@@ -1,0 +1,793 @@
+
+
+/*obnul*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+:focus, :active {
+    outline: thistle;
+}
+
+a:focus, a:active {
+    outline: white;
+}
+
+nav, header, aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+    input::-ms-clear {
+        display: none;
+    }
+
+button {
+    cursor: pointer;
+}
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.imga {
+    display: flex;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body {
+    color: #000000;
+}
+
+.En {
+
+    display: none;
+
+}
+
+.Ru {
+
+    display: none;
+
+}
+
+.Bel {
+    
+    display: none;
+
+}
+
+.container {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aa {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+    .aa:hover {
+        color: #86280b;
+        text-decoration: underline;
+    }
+
+.En:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.Bel:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.share:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.imge:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cormorant SC';
+    text-shadow: 2px 2px 8px;
+    font-weight: 500;
+    font-size: 40x;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+}
+
+.menu-list_item {
+    text-decoration: none;
+    padding-left:21px;  
+ 
+}
+
+
+
+.page2 {
+    color: black;
+    background-image: url('img/Group 17.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-list_itemactive {
+
+ padding-left: 20px;
+ padding-right: 10px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+    .menu-list_itemactive a {
+        color: #4d1200;
+        font-style: bold;
+    }
+
+.list2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.text1 {
+    position: absolute;
+    left: 53%;
+    right: 28%;
+    top: 3%;
+    font-weight: 500;
+    font-style: normal;
+    Line-height: 34,99px;
+    Letter-spacing: 3.5%;
+    font-family: 'Bad Script';
+    Line-height: 23px;
+    font-Size: 16px;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+    flex-direction: column;
+}
+
+.imga1 {
+    margin-top: -150px;
+    margin-left: 550px;
+    width: 220px;
+    height: 170px;
+    position: absolute;
+    display: flex;
+}
+
+.imga2 {
+    margin-top: -135px;
+    margin-left: 750px;
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    display: flex;
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.text2 {
+    position: absolute;
+    left: 51%;
+    right: 28%;
+    top: 27%;
+    font-weight: 500;
+    font-style: normal;
+    Line-height: 34,99px;
+    Letter-spacing: 3.5%;
+    font-family: 'Bad Script';
+    Line-height: 23px;
+    font-Size: 16px;
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+    flex-direction: column;
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.text3 {
+    position: absolute;
+    justify-content: center;
+    left: 52%;
+    right: 27%;
+    top: 50%;
+    font-weight: 500;
+    font-style: normal;
+    Line-height: 24px;
+    Letter-spacing: 3.5%;
+    font-family: 'Bad Script';
+    font-Size: 16px;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+    flex-direction: column;
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.text4 {
+    position: absolute;
+    left: 30%;
+    top: 48%;
+    right: 58%;
+    font-weight: 500;
+    font-style: normal;
+    Letter-spacing: 3.5%;
+    font-family: 'Bad Script';
+    Line-height: 22px;
+    font-Size: 18px;
+    color: #000000;
+    transform: rotate(-16.28deg);
+    animation-duration: 4s;
+    animation-name: fadeIn;
+    flex-direction: column;
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.imga {
+    width: 50%;
+    height: 50%;
+    margin-top: -4%;
+}
+
+.main-hamburger-menu_Polina {
+    font-family: 'Cormorant SC';
+    visibility: hidden;
+}
+
+/* скрываем чекбокс */
+#main-menu__toggle_Polina {
+    opacity: 0;
+}
+
+/* стилизуем кнопку */
+.main-menu__btn_Polina {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center; /* центрируем содержимое кнопки */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 100000;
+}
+
+    /* добавляем "гамбургер" */
+    .main-menu__btn_Polina > span,
+    .main-menu__btn_Polina > span::before,
+    .main-menu__btn_Polina > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #000000;
+    }
+
+        .main-menu__btn_Polina > span::before {
+            content: '';
+            top: -8px;
+        }
+
+        .main-menu__btn_Polina > span::after {
+            content: '';
+            top: 8px;
+        }
+
+/* контейнер меню */
+.main-menu__box_Polina {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    z-index: 10000;
+}
+
+/* элементы меню */
+.main-menu__item1_Polina, .main-menu__item2_Polina, .main-menu__item3_Polina, .main-menu__item4_Polina {
+    display: block;
+    padding: 12px 24px;
+    font-size: 3.6vh;
+    color: #333;
+    text-decoration: none;
+}
+
+    .main-menu__item1_Polina:hover, .main-menu__item2_Polina:hover, .main-menu__item3_Polina:hover, .main-menu__item4_Polina:hover {
+        background: linear-gradient(to right, #75757595, #757575, #757575, #75757595);
+        color: #d6d6d6;
+    }
+
+#main-menu__toggle_Polina:checked ~ .main-menu__btn_Polina > span {
+    transform: rotate(45deg);
+}
+
+    #main-menu__toggle_Polina:checked ~ .main-menu__btn_Polina > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #main-menu__toggle_Polina:checked ~ .main-menu__btn_Polina > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+#main-menu__toggle_Polina:checked ~ .main-menu__box_Polina {
+    visibility: visible;
+    right: 0;
+}
+
+.main-menu__btn_Polina > span,
+.main-menu__btn_Polina > span::before,
+.main-menu__btn_Polina > span::after {
+    transition-duration: .25s;
+}
+
+.main-menu__box_Polina {
+    transition-duration: .25s;
+}
+
+.main-menu__item1_Polina, .main-menu__item2_Polina, .main-menu__item3_Polina, .main-menu__item4_Polina {
+    transition-duration: .25s;
+}
+
+
+
+@media only screen and (max-width:1920px){
+
+.menu-list{
+
+    font-size: 40x;
+}
+    .text1{
+  
+        margin-left: 10vw;
+    }
+    .text2{
+        margin-top: 1vw;
+    }
+    
+    .text3{
+        margin-top: 2vw;
+        margin-left: -1vw;
+    }
+    
+
+
+
+
+
+} 
+
+@media only screen and (max-width:1680px) {
+
+    .container {
+        width: 76.17vw;
+        margin: 0 auto;
+    }
+
+    .menu-list {
+        text-shadow: 0.10vw 0.10vw 0.42vw;
+        font-weight: 78.13vw;
+        font-size: 1.56vw;
+        line-height: 1.56vw;
+        letter-spacing: 0.06em;
+    }
+
+    .imge {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .En {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .Bel {
+        width: 2vw;
+        height: 2vw;
+    }
+
+   
+}
+
+
+@media only screen and (max-width:1440px) {
+
+    .container {
+        width: 90.57vw;
+        margin: 0 auto;
+    }
+
+    .menu-list {
+        text-shadow: 0.10vw 0.10vw 0.42vw;
+        font-weight: 78.13vw;
+        font-size: 1.56vw;
+        line-height: 1.56vw;
+        letter-spacing: 0.06em;
+    }
+
+    .imge {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .En {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .Bel {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    
+}
+
+@media only screen and (max-width:1280px) {
+
+    .container {
+        width: 96.14vw;
+        margin: 0 auto;
+    }
+
+    .menu-list {
+        text-shadow: 0.10vw 0.10vw 0.42vw;
+        font-weight: 78.13vw;
+        font-size: 1.56vw;
+        line-height: 1.56vw;
+        letter-spacing: 0.06em;
+    }
+
+    .imge {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .En {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .Bel {
+        width: 2vw;
+        height: 2vw;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:1152px) {
+
+    .container {
+        width: 96.14vw;
+        margin: 0 auto;
+    }
+
+    .menu-list {
+        text-shadow: 0.10vw 0.10vw 0.42vw;
+        font-weight: 78.13vw;
+        font-size: 1.56vw;
+        line-height: 1.56vw;
+        letter-spacing: 0.06em;
+    }
+
+    .imge {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .En {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .Bel {
+        width: 2vw;
+        height: 2vw;
+    }
+
+}
+.text1{
+  
+    margin-left: -1vw;
+}
+.text2{
+    margin-top: 1vw;
+}
+
+.text3{
+    margin-top: 2vw;
+    margin-left: -1vw;
+}
+
+
+
+
+@media only screen and (max-width:1080px) {
+
+   
+
+    .main-hamburger-menu_Polina{
+
+        display: inline-block;
+
+    }
+
+    .container {
+
+        width: 98.25vw;
+        display: flex;
+
+    }
+
+    
+
+    .menu-list {
+
+        text-shadow: 0.10vw 0.10vw 0.42vw;
+        font-weight: 48.13vw;
+        font-size: 4vw;
+        line-height: 1.56vw;
+        display: none;
+   
+    }
+
+    .imge {
+        margin-top:1vw;
+        margin-bottom:1vw;
+        width: 8vh;
+        height: 8vh;
+
+    }
+
+    .imga {
+
+        display: none;
+
+    }
+
+    .imga {
+
+        width: 80%;
+        height: 80%;
+
+    }
+
+    .En {
+        margin-top: 1vw;
+        width: 5vh;
+        height: 5vh;
+        margin-bottom:1vw;
+    }
+
+    .Bel {
+        margin-top: 1vw;
+        width: 5vh;
+        height: 5vh;
+        margin-bottom:1vw;
+    }
+
+    .Ru {
+        margin-top: 1vw;
+        width: 3vh;
+        height: 3vh;
+        margin-bottom:1vw;
+        display: none
+    }
+
+    .ru {
+        margin-top: 1vw;
+        width: 2.7vw;
+        height: 2.7vw;
+        margin-bottom:1vw;
+    }
+
+
+    .text1, .text2, .text3, .text4 {
+
+        font-size: 3.6vh;
+        text-align: center;
+        width: 100%;
+        font-weight: 500;
+        font-style: normal;
+        Line-height: 4.5vh;
+        animation-duration: 4s;
+        animation-name: fadeIn;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        position: inherit;
+
+    }
+
+    .text4 {
+
+        display: none;
+
+    }
+
+    .navrod {
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+    }
+
+
+    @media only screen and (max-width:1024px) {
+
+        .menu {
+            visibility: hidden;
+        }
+    
+        .main-hamburger-menu_Polina {
+            visibility: initial;
+         position: static;
+        }
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1336 @@
+/*obnul*/
+
+*
+{
+padding: 0;
+margin: 0;
+border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline:thistle;}
+a:focus,a:active{outline: white;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+ul li{
+margin:0;
+padding:0;
+display:block;}
+
+body{
+  color: #000000;
+}
+
+
+
+/*меню*/
+@font-face{
+  font-family: "Cormorant SC";
+  src: url("winter-42\ adaptiv.zip/CormorantSC-Medium.woff""woff");
+}
+
+#menu_toggle_diary{
+  opacity: 0;
+  }
+
+.menu_btn_diary {
+  position: fixed;
+  padding: 0;
+  top: 15px;
+  right: 60px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  z-index: 2 ;
+  }
+
+li{
+  position: relative;
+}
+
+.menu_for_diary{
+  position: fixed;
+  visibility: hidden;
+  text-align: center;
+  list-style: none;
+  border: 4.05px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 0;
+  top: 60px;
+  right: -100%;
+  width: 180px;
+  z-index: 1;
+}
+
+.submenu_for_diary{
+  position: absolute;
+  list-style: none;
+  text-align: center;
+  border: 4.05px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  z-index: 1;
+}
+
+.a_diary{
+  display: block;
+  padding: 1em;
+  font-family: 'Cormorant SC';
+  font-size: 14px;
+  font-weight: 550;
+ 
+  color: #FFFFFF;
+  letter-spacing: 0.2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+}
+
+li:hover > .a_diary,
+.a_diary:hover{
+  background-color: rgb(70, 70, 70);
+}
+
+li:hover > .submenu_for_diary{
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  width: 50%;
+}
+
+.menu_for_diary .submenu_for_diary{
+  top: 0;
+  right: 102%;
+}
+
+#menu_toggle_diary:checked ~ .menu_for_diary {
+  visibility: visible;
+  right: 60px;
+}
+
+.menu_box_diary{
+  transition-duration: 1s;
+}
+
+
+
+
+
+  /*leto41*/    
+
+  .page3{
+    background-image: url('img/background_image\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ position: relative;
+    overflow: hidden;
+  }
+ 
+/*фон лето1941*/
+.pic1{
+   position: relative;
+   margin-top: 2%;
+   margin-left: 35%;
+   Width:28%;
+  
+   margin-bottom: -1%;
+}
+
+
+
+.logo1{
+  margin-left: -3vw;
+  margin-top: 1vw;
+  width:8vw ;
+  height: 8vw;
+}
+
+
+
+
+
+
+
+/*текст лето 1941*/
+.Data{
+    position: absolute;
+top: 9%;
+   left: 42%;
+    Font-family:'Bad Script';
+    Font-style: Regular;
+    Font-size:40px;
+    Line-height: 49px;
+    Letter-spacing: 3.5%;
+    text-align: center;
+}
+
+/*Лого*/
+
+
+/*фон основной текст */
+.pic2{
+ position: absolute;
+ margin-top: 1%;
+padding-left: 20%;
+
+width: 83%;
+}
+
+
+/*основной текст*/
+.Paragraph1{
+position: absolute;
+Font-family:'Bad Script';
+Font-style: Regular;
+Font-size: 25px;
+Line-height: 40px;
+Letter-spacing: 3.5%;
+margin-top: 3.5%;
+left: 24%;
+Width:50%;
+
+}
+
+
+.pic3{
+  position: absolute;
+  margin-top: 20%;
+ padding-left: 20%;
+
+
+ width: 83%;
+
+}
+
+/*2й абзац осн текста */
+.Paragraph2{
+  position: absolute;
+  Font-family:'Bad Script';
+  Font-style: Regular;
+  Font-size: 25px;
+  Line-height: 40px;
+  Letter-spacing: 3.5%;
+  margin-top: 22.5%;
+  left: 24%;
+  Width:50%;
+}
+
+/*стрелка вперёд*/
+.arrowforward{
+  position: absolute;
+  bottom: 7%;
+ right: 10%;
+}
+
+/*блок вперёд*/
+.forward{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+/* блок назад*/
+.back{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*фон назад*/
+.backfon{
+  position: relative;
+
+}
+
+/*стрелка назад*/
+.arrowback{
+  position: absolute;
+  left: 0%;
+}
+
+/*фон вперёд*/
+.forwardfon{
+  position: relative;
+}
+
+/*гифка огонь*/
+
+.giffire1{
+
+  position: absolute;
+  width:35%  ;
+  height: 35%;
+  margin-top: 10%;
+  margin-left: 21%;
+  display: flex;
+  
+  }
+
+
+  .giffire2{
+
+    position: absolute;
+    width:28%  ;
+    height: 35%;
+    margin-top: 10%;
+    margin-left: 54%; 
+     display: flex;
+  
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1620px) 
+{
+  body{
+    color: #000000;
+  }
+  
+
+
+  
+/*меню*/
+@font-face{
+  font-family: "Cormorant SC";
+  src: url("../Гамбургер для страниц дневника/CormorantSC-Medium.woff") format("woff");
+}
+
+#menu_toggle_diary{
+  opacity: 0;
+  }
+
+.menu_btn_diary {
+  position: fixed;
+  padding: 0;
+  top: 15px;
+  right: 60px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  z-index: 2 ;
+  }
+
+li{
+  position: relative;
+}
+
+.menu_for_diary{
+  position: fixed;
+  visibility: hidden;
+  text-align: center;
+  list-style: none;
+  border: 4.05px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 0;
+  top: 60px;
+  right: -100%;
+  width: 180px;
+  z-index: 1;
+}
+
+.submenu_for_diary{
+  position: absolute;
+  list-style: none;
+  text-align: center;
+  border: 4.05px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  z-index: 1;
+}
+
+.a_diary{
+  display: block;
+  padding: 1em;
+  font-family: 'Cormorant SC';
+  font-size: 14px;
+  font-weight: 550;
+ 
+  color: #FFFFFF;
+  letter-spacing: 0.2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+}
+
+li:hover > .a_diary,
+.a_diary:hover{
+  background-color: rgb(70, 70, 70);
+}
+
+li:hover > .submenu_for_diary{
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  width: 50%;
+}
+
+.menu_for_diary .submenu_for_diary{
+  top: 0;
+  right: 102%;
+}
+
+#menu_toggle_diary:checked ~ .menu_for_diary {
+  visibility: visible;
+  right: 60px;
+}
+
+.menu_box_diary{
+  transition-duration: 1s;
+}
+
+
+
+    /*leto41*/    
+  
+    .page3{
+      background-image: url('img/background_image\ \(1\).png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+   position: relative;
+      overflow: hidden;
+    }
+   
+  /*фон лето1941*/
+  .pic1{
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 36vw;
+    Width:28vw;
+   
+    margin-bottom: -1vw;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*текст лето 1941*/
+  .Data{
+      position: absolute;
+  top: 4.5vw;
+     left: 43vw;
+      Font-family:'Bad Script';
+      Font-style: Regular;
+      Font-size:2.50vw;
+      Line-height: 3.06vw;
+
+      text-align: center;
+  }
+  
+  /*Лого*/
+
+  
+  /*фон основной текст */
+  .pic2{
+   position: absolute;
+   margin-top: 1vw;
+  padding-left: 20vw;
+
+  width: 83%;
+  
+  }
+  
+  
+  /*основной текст*/
+  .Paragraph1{
+  position: absolute;
+  Font-family:'Bad Script';
+  Font-style: Regular;
+  Font-size: 1.56vw;
+  Line-height: 2.50vw;
+
+  margin-top: 3vw;
+  left: 23vw;
+  Width:53vw;
+  
+  }
+  
+  
+  .pic3{
+    position: absolute;
+    margin-top: 20vw;
+   padding-left: 20vw;
+   width: 83%;
+  
+  }
+  
+  /*2й абзац осн текста */
+  .Paragraph2{
+    position: absolute;
+    Font-family:'Bad Script';
+    Font-style: Regular;
+    Font-size: 1.56vw;
+    Line-height: 2.50vw;
+
+    margin-top: 22vw;
+    left: 23vw;
+    Width:53vw;
+  }
+
+
+
+
+
+/*стрелка вперёд*/
+.arrowforward{
+  position: absolute;
+  bottom: 4%;
+ right: 10%;
+}
+
+/*блок вперёд*/
+.forward{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+}
+
+
+/* блок назад*/
+.back{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*фон назад*/
+.backfon{
+  position: relative;
+
+}
+
+/*стрелка назад*/
+.arrowback{
+  position: absolute;
+  left: 0%;
+}
+
+/*фон вперёд*/
+.forwardfon{
+  position: relative;
+}
+
+/*гифка огонь*/
+
+
+
+
+@media only screen and (max-width : 1350px) 
+{
+
+
+
+
+
+  .pic2{
+    position: absolute;
+    margin-top: 2vw;
+   padding-left: 20vw;
+
+   width: 83%;
+   
+   }
+
+
+  .pic3{
+    position: absolute;
+    margin-top: 22vw;
+   padding-left: 20vw;
+   width: 83%;
+   height: 20vw;
+  }
+  .Paragraph1{
+    margin-top:4vw ;
+  }
+
+  .Paragraph2{
+    margin-top:24vw ;
+  }
+
+
+
+}
+
+@media only screen and (max-width : 1240px) 
+{
+
+
+
+  .Data{
+ top: 6.5%;}
+
+  .pic2{
+    position: absolute;
+    margin-top: 3vw;
+   padding-left: 20vw;
+
+   width: 83%;
+   height: 22vw;
+   }
+
+
+  .pic3{
+    position: absolute;
+    margin-top: 26vw;
+   padding-left: 20vw;
+   width: 83%;
+   height: 24vw;
+  }
+  .Paragraph1{
+    margin-top:5vw ;
+    font-size: 26px;
+  }
+
+  .Paragraph2{
+    margin-top:28vw ;
+    font-size: 26px;
+  }
+
+
+
+}
+
+@media only screen and (max-width : 1040px) 
+{
+
+
+
+  .Data{
+ top: 5.5vw;}
+
+  .pic2{
+    position: absolute;
+    margin-top: 4vw;
+   padding-left: 20vw;
+
+   width: 83vw;
+   height: 22vw;
+   }
+
+
+  .pic3{
+    position: absolute;
+    margin-top: 28vw;
+   padding-left: 20vw;
+   width: 83vw;
+   height: 24vw;
+  }
+  .Paragraph1{
+    margin-top:6vw ;
+    font-size:2.50vw;
+  }
+
+  .Paragraph2{
+    margin-top:30vw ;
+    font-size: 2.50vw;
+  }
+
+
+
+}
+
+@media only screen and (max-width : 800px) 
+{
+  .pic1{
+   
+    Width:32vw;
+   
+ height: 9vw;
+  }
+  
+  
+  
+  .logo{
+    margin-left: 2vw;
+    margin-top: 0vw;
+    width:12vw ;
+    height: 12vw;
+ 
+  }
+
+
+  .Data{
+ top: 6.5vw;
+font-size:3vw; ;
+left: 42vw;
+}
+
+  .pic2{
+    position: absolute;
+    margin-top: 6vw;
+   padding-left: 15vw;
+
+   width: 90vw;
+   height: 36vw;
+   }
+
+
+  .pic3{
+    position: absolute;
+    margin-top: 43vw;
+   padding-left: 15vw;
+ 
+   width: 90vw;
+   height: 36vw;
+  }
+  .Paragraph1{
+    margin-top:10vw ;
+    font-size:3vw;
+    line-height: 3.5vw;
+    width: 64vw;
+    margin-left: -3vw;
+  }
+
+  .Paragraph2{
+    margin-top:47vw ;
+    font-size: 3vw;
+    line-height: 3.5vw;
+   margin-left: -3vw;
+    width: 64vw;
+  }
+
+
+
+
+  
+  .giffire1{
+
+    position: absolute;
+    width:35%  ;
+    height: 25%;
+    margin-top: 29%;
+    margin-left: 21%;
+    display: flex;
+    
+    }
+  
+  
+    .giffire2{
+  
+      position: absolute;
+      width:34vw  ;
+      height: 25vw;
+      margin-top: 29vw;
+      margin-left: 54vw; 
+       display: flex;
+    
+      }
+
+
+
+
+
+/*стрелка вперёд*/
+.arrowforward{
+  position: absolute;
+  bottom: 0%;
+ right: 5%;
+}
+
+/*блок вперёд*/
+.forward{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20vw;
+}
+
+
+/* блок назад*/
+.back{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*фон назад*/
+.backfon{
+  position: relative;
+
+}
+
+/*стрелка назад*/
+.arrowback{
+  position: absolute;
+  left: 0%;
+}
+
+/*фон вперёд*/
+.forwardfon{
+  position: relative;
+}
+
+/*гифка огонь*/
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width : 600px) {
+
+  .logo{
+    margin-left: 7vw;
+    margin-top: 1vw;
+    width:12vw ;
+    height: 12vw;
+ 
+  }
+
+
+
+
+  .pic1{
+  
+    margin-top: 2vw;
+    margin-left: 34vw;
+    Width:35vw;
+    height: 10vw;
+   
+   
+    margin-bottom: -1vw;
+
+
+  }
+
+  .Data{
+ top: 7.5vw;
+font-size:4vw; ;
+left: 39vw;
+}
+
+  .pic2{
+    position: absolute;
+    margin-top: 2vw;
+   padding-left: 10vw;
+
+   width: 95vw;
+   height: 47vw;
+   }
+
+
+  .pic3{
+    position: absolute;
+    margin-top: 49vw;
+   padding-left: 10vw;
+
+
+
+   width: 95vw;
+   height: 49vw;
+  }
+  .Paragraph1{
+    margin-top:7vw ;
+    font-size:4vw;
+    width: 74vw;
+   
+    margin-left: -5vw;
+    line-height: 4vw;
+  }
+
+  .Paragraph2{
+    margin-top:53vw ;
+    font-size: 4vw;
+    width: 74vw;
+    Line-height: 4vw;
+  margin-left: -5vw;
+
+  
+  }
+
+
+
+
+
+
+/*стрелка вперёд*/
+.arrowforward{
+  position: absolute;
+  bottom: 0%;
+ right: -10%;
+}
+
+/*блок вперёд*/
+.forward{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20vw;
+}
+
+
+/* блок назад*/
+.back{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*фон назад*/
+.backfon{
+  position: relative;
+
+}
+
+/*стрелка назад*/
+.arrowback{
+  position: absolute;
+  left: 0%;
+}
+
+/*фон вперёд*/
+.forwardfon{
+  position: relative;
+}
+
+/*гифка огонь*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .giffire1{
+
+    position: absolute;
+    width:44vw  ;
+    height: 33vw;
+    margin-top: 30vw;
+    margin-left: 17vw;
+    display: flex;
+    
+    }
+  
+  
+    .giffire2{
+  
+      position: absolute;
+      width:38vw  ;
+      height: 33vw;
+      margin-top: 30vw;
+      margin-left: 54vw; 
+       display: flex;
+    
+      }
+
+
+
+
+
+    
+}
+
+
+@media only screen and (max-width : 450px) 
+{
+  .logo{
+    margin-left: 13vw;
+    margin-top: 0vw;
+    width:15vw ;
+    height: 15vw;
+  }
+
+
+  .Data{
+    top: 8.5vw;
+
+   left: 39vw;
+   }
+   
+   
+/*стрелка вперёд*/
+.arrowforward{
+  position: absolute;
+  bottom: 0%;
+ right: -3%;
+}
+
+/*блок вперёд*/
+.forward{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30vw;
+}
+
+
+/* блок назад*/
+.back{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*фон назад*/
+.backfon{
+  position: relative;
+
+}
+
+/*стрелка назад*/
+.arrowback{
+  position: absolute;
+  left: 0%;
+}
+
+/*фон вперёд*/
+.forwardfon{
+  position: relative;
+}
+
+/*гифка огонь*/
+
+
+  .pic2{
+    position: absolute;
+    margin-top: 8vw;
+    height: 62vw;
+   }
+
+
+  .pic3{
+    position: absolute;
+    margin-top: 69vw;
+   padding-left: 9vw;
+   height: 65vw;
+ 
+  }
+  .Paragraph1{
+    margin-top:14vw ;
+   
+    line-height: 5.5vw;
+  
+  }
+
+  .Paragraph2{
+    margin-top: 73vw;;
+    line-height: 5.5vw;
+
+  
+
+  }
+
+
+  .giffire1{
+
+    position: absolute;
+    width:44vw  ;
+    height: 33vw;
+    margin-top: 52vw;
+    margin-left: 17vw;
+    display: flex;
+    
+    }
+  
+  
+    .giffire2{
+  
+      position: absolute;
+      width:38vw  ;
+      height: 33vw;
+      margin-top: 52vw;
+      margin-left: 54vw; 
+       display: flex;
+    
+      }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 320px) 
+{
+  .logo{
+    margin-left: 22vw;
+    margin-top: 4vw;
+    width:20vw ;
+    height: 20vw;
+  }
+
+
+
+  .pic1{
+    margin-top: 7vw;
+    margin-left: 33vw;
+    Width:43vw;
+    height: 15vw;
+   
+   
+    margin-bottom: -1vw;
+
+
+  }
+
+  .Data{
+ top: 16.5vw;
+font-size:5vw; ;
+left: 39vw;
+}
+
+  .pic2{
+    position: absolute;
+    margin-top: 8vw;
+    padding-left: 9vw;
+
+   width: 94vw;
+   height: 90vw;
+   }
+
+
+  .pic3{
+    position: absolute;
+    margin-top: 94vw;
+   padding-left: 9vw;
+   width: 94vw;
+   height: 105vw;
+  }
+  .Paragraph1{
+    margin-top:17vw ;
+    font-size:6vw;
+    width: 69vw;
+    Line-height: 5vw;
+    
+    margin-left: -6vw;
+
+  
+  }
+
+  .Paragraph2{
+    margin-top:102vw ;
+    font-size: 6vw;
+    width: 69vw;
+    Line-height: 5vw;
+    margin-left: -6vw;
+  
+
+  }
+
+
+
+  .giffire1{
+
+    position: absolute;
+    width:43%  ;
+    height: 15%;
+    margin-top: 75%;
+    margin-left: 17%;
+    display: flex;
+    
+    }
+  
+  
+    .giffire2{
+  
+      position: absolute;
+      width:37%  ;
+      height: 15%;
+      margin-top: 75%;
+      margin-left: 54%; 
+       display: flex;
+    
+      }
+      
+/*стрелка вперёд*/
+.arrowforward{
+  position: absolute;
+  bottom: -7%;
+ right: -10%;
+}
+
+/*блок вперёд*/
+.forward{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 38vw;
+}
+
+
+/* блок назад*/
+.back{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+/*фон назад*/
+.backfon{
+  position: relative;  width: 35vw;
+
+}
+
+/*стрелка назад*/
+.arrowback{
+  position: absolute;
+  left: 0%;
+}
+
+/*фон вперёд*/
+.forwardfon{
+  position: relative;
+}
+
+
+
+
+      @media only screen and (max-width : 300px) 
+      {
+        .logo{
+          margin-left: 25vw;
+          margin-top: 2vw;
+          width:20vw ;
+          height: 20vw;
+        }
+      
+      
+      
+        .pic1{
+          margin-top: 7vw;
+          margin-left: 33vw;
+          Width:43vw;
+          height: 15vw;
+         
+         
+          margin-bottom: -1vw;
+      
+      
+        }
+      
+        .Data{
+       top: 17.5vw;
+      font-size:5vw; ;
+      left: 39vw;
+      }
+      
+
+      @media only screen and (max-width : 220px) 
+      {
+        .logo{
+          margin-left: 41vw;
+          margin-top: 4vw;
+          width:20vw ;
+          height: 20vw;
+        }
+    /*стрелка вперёд*/
+.arrowforward{
+  position: absolute;
+  bottom: -12%;
+ right: -5vw;
+}
+
+/*блок вперёд*/
+.forward{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 38vw;
+}
+
+
+/* блок назад*/
+.back{
+  position: absolute;
+
+  left: 0;
+
+}
+
+/*фон назад*/
+.backfon{
+  position: relative;  width: 35vw;
+
+}
+
+/*стрелка назад*/
+.arrowback{
+  position: absolute;
+  left: -4vw;
+  bottom: -10vw;
+}
+
+/*фон вперёд*/
+.forwardfon{
+  position: relative;
+}
